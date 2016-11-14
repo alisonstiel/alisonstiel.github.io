@@ -1,7 +1,9 @@
-img-circle {
-    border-radius: 50%;
+h2.ontop {
+  position: relative;
+  top: 4.7em;
 }
 
-h1 {
-    padding-top: 2cm;
+img {
+    max-width: 100%;
+    height: auto;
 }

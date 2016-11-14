@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
-	<div class="jumbotron">
+	<div class="jumbotron" <--style="background-image: url('back.jpg');"--> >
 		<center>
 		  <img src="alison.jpg" class="img-circle">
 		  <h1>Alison Stiel</h1>
 		  <p>Junior at Binghamton University | Mathematics Major | Computer Science Minor </p>
-		</center>  
+		</center>  	
 	</div>
 	<div class="container">
 	   <center>
-		<button class="btn btn-primary" id="myModal" data-toggle="modal" data-target=".bd-example-modal-lg">Resume</button>
-		<a class="btn btn-primary" href="https://www.linkedin.com/in/alisonstiel" target="_blank">Linkedin</a>
-		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-		  <div class="modal-dialog modal-lg">
-		    <div class="modal-content">
-		        <img src="AlisonStielResume.jpg">
-		    </div>
-		  </div>
-		</div>
-		</center>
+		   <button class="btn btn-primary" id="myModal" data-toggle="modal" data-target=".bd-example-modal-lg">Resume</button>
+		   <a class="btn btn-primary" href="https://www.linkedin.com/in/alisonstiel" target="_blank">Linkedin</a>
+		   <a class="btn btn-primary" href="mailto:astiel1@binghamton.edu">Email</a>
+		   <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			   <div class="modal-dialog modal-lg">
+				   <div class="modal-content">
+					   <img src="AlisonStielResume.jpg">
+				   </div>
+				   <div class="modal-footer">
+					   						<form method="get" action="AlisonStielResume.pdf">
+						<button type="submit">Download Resume</button>
+						</form>
+				  </div>
+			   </div>
+		   </div>
+	   </center>
 	</div>
-
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-  	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+
+
