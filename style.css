@@ -3,13 +3,17 @@ h2.ontop {
   top: 4.7em;
 }
 
+.h1 {
+    color: #FFFFFF;
+  }
+
 img {
     max-width: 100%;
     height: auto;
 }
 
 .jumbotron {
-        background: url('back.jpg') no-repeat center center fixed;
+        /* background: url('back.jpg') no-repeat center center fixed; */
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
