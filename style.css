@@ -7,3 +7,15 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.jumbotron {
+        background: url('back.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.img-circle {
+    border:10px solid #FFFFFF;
+}
